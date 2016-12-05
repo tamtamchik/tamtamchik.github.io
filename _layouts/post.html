@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div id="main">
+    <article>
+        <header class="major">
+            <h2 class="post-title">{{ page.title }}</h2>
+                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
+
+        <section>
+            {{ content }}
+        </section>
+
+        <footer>
+            <div class="row">
+            {% if page.previous %}
+
+                <article class="6u 6u(small)">
+                    <header>
+                        <h4>
+                          <div class="date">{{ page.previous.date | date: "%b %-d, %Y" }} </div>
+                          <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                        </h4>
+                    </header>
+                </article>
+
+            {% endif %}
+
+            {% if page.next %}
+
+                <article class="6u 6u(small)">
+                    <header>
+                        <h4>
+                          <div class="date">{{ page.next.date | date: "%b %-d, %Y" }} </div>
+                          <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+                        </h4>
+                    </header>
+                </article>
+
+            {% endif %}
+            </div>
+        </footer>
+
+    </article>
+
+</div>

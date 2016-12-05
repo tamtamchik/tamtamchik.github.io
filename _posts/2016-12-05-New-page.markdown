@@ -1,0 +1,7 @@
+---
+layout: post
+title: New page based on Jekyll
+---
+
+A time has come to create a bit better homepage for me. Hope to update it
+regularly with news and event that will happen to me.

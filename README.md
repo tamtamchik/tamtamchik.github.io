@@ -1,2 +1,3 @@
 # tamtamchik.github.io
-Personal Site
+
+Personal Site on Jekyll using Strata theme. 

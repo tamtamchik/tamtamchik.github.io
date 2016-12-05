@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div id="main">
+
+  <section>
+          <header class="major">
+              <h2>All articles</h2>
+          </header>
+  </section>
+
+  <section>
+      {% for post in site.posts limit:1 %}
+          <header>
+              <h2>{{ post.title }}</h2>
+              <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+          </header>
+
+          <section>
+              {{ post.content }}
+          </section>
+      {% endfor %}
+  </section>
+  <section>
+      <div class="row">
+          {% for post in site.posts offset:1 %}
+
+              <article class="12u 12u(small)">
+                  <header>
+                      <h4>
+                        <div class="date">{{ post.date | date: "%b %-d, %Y" }} </div>
+                        <a href="{{ post.url }}"> {{ post.title }}</a>
+                      </h4>
+                  </header>
+              </article>
+
+          {% endfor %}
+      </div>
+  </section>
+
+</div>
