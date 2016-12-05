@@ -1,0 +1,7 @@
+---
+layout: post
+title: NameCase
+---
+
+So, well, while I was absent, I created a package for fixing names case (**LOUIS XIV** = **Louis XIV**).
+And it collected **46 stars on GitHub**. This is my personal record so far!
