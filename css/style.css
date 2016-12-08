@@ -27,7 +27,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #666666;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -182,7 +182,7 @@
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #777777;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -330,7 +330,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #a2a2a2;
+			color: #666666;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -388,27 +388,27 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #b2b2b2 !important;
+		color: #777777 !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #b2b2b2 !important;
+		color: #777777 !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #b2b2b2 !important;
+		color: #777777 !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #b2b2b2 !important;
+		color: #777777 !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #b2b2b2 !important;
+		color: #777777 !important;
 		opacity: 1.0;
 	}
 
@@ -492,7 +492,7 @@
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				border: solid 3px rgba(255, 255, 255, 0.5);
+				border: solid 3px rgba(255, 255, 255, 0.75);
 				color: #fff;
 				content: 'View';
 				display: inline-block;
@@ -711,7 +711,7 @@
 				}
 
 				ul.labeled-icons li h3 {
-					color: #b2b2b2;
+					color: #777777;
 					left: 0;
 					position: absolute;
 					text-align: center;
@@ -913,7 +913,7 @@
 		.button:disabled {
 			background-color: #e7e7e7 !important;
 			border-color: #e7e7e7 !important;
-			color: #b2b2b2 !important;
+			color: #777777 !important;
 			cursor: default;
 		}
 
@@ -948,7 +948,7 @@
 		background-position: 		top left,										-240px 0;
 		background-repeat: 			repeat,											no-repeat;
 		background-size: 				auto,												auto 100%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.75);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em 0 0;
@@ -967,7 +967,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.75);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -994,11 +994,11 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.4);
+				color: rgba(255, 255, 255, 0.75);
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			list-style: none;
 			margin: 1em 0 0 0;
@@ -1006,7 +1006,7 @@
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px rgba(255, 255, 255, 0.25);
+				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				display: inline-block;
 				line-height: 1em;
 				margin-left: 0.75em;
