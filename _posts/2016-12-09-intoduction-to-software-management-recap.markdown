@@ -3,11 +3,10 @@ layout: post
 title: Introduction to Software Product Management Recap
 ---
 
-_This is my recap after completing [University of Alberta's Introduction to Software Product Management course](https://www.coursera.org/learn/introduction-to-software-product-management). If you find this article interesting I strongly recommend you to get this course._
+_This is my recap after completing [University of Alberta's Introduction to Software Product Management course](https://www.coursera.org/learn/introduction-to-software-product-management).  
+If you find this article interesting I strongly recommend you to get this course._
 
-It takes the sustained work of many people with different skill sets to make great software products. A software product manager needs to understand main 3 goals to achieve better software.
-
-Here they are: **the right product, done right, and managed right.**
+It takes the sustained work of many people with different skill sets to make great software products. A software product manager needs to understand main 3 goals to achieve better software: **the right product, done right, and managed right.**
 
 To be more specific:
 
@@ -30,3 +29,5 @@ To achieve project success which is measured by **on-time and within budget deli
 The Agile philosophy values the items on the left more than the items on the right. This is not to suggest that you ignore _processes and tools, comprehensive documentation, contract negotiation, or following a plan._ It is merely that the items on the left are the more important things to focus on.
 
 On [http://agilemanifesto.org](http://agilemanifesto.org) presented 12 principles that help to follow this philosophy.
+
+To achieve project success product manager should be familiar with **Software Processes and Agile Practices, Client Needs and Software Requirements, Agile Planning for Software Products and Reviews & Metrics for Software Improvements** luckily there are such [courses from Alberta University on Coursera as well](https://www.coursera.org/specializations/product-management).
