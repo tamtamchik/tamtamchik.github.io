@@ -1,103 +1,104 @@
 <!DOCTYPE html>
 <html>
-  	<head>
-  		<title>Yuri Tkachenko</title>
-  		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  		<meta name="description" content="" />
-  		<meta name="keywords" content="" />
-  		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-  		<script src="/js/jquery.min.js"></script>
-  		<script src="/js/jquery.poptrox.min.js"></script>
-  		<script src="/js/skel.min.js"></script>
-  		<script src="/js/init.js"></script>
-  		<noscript>
-  			<link rel="stylesheet" href="/css/skel.css" />
-  			<link rel="stylesheet" href="/css/style.css" />
-  			<link rel="stylesheet" href="/css/style-small.css" />
-  		</noscript>
-  		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-  	</head>
+  <head>
+  	<title>Yuri Tkachenko</title>
+  	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  	<meta name="description" content="" />
+  	<meta name="keywords" content="" />
+  	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+  	<script src="/js/jquery.min.js"></script>
+  	<script src="/js/jquery.poptrox.min.js"></script>
+  	<script src="/js/skel.min.js"></script>
+  	<script src="/js/init.js"></script>
+  	<noscript>
+  		<link rel="stylesheet" href="/css/skel.css" />
+  		<link rel="stylesheet" href="/css/style.css" />
+  		<link rel="stylesheet" href="/css/style-small.css" />
+  	</noscript>
+  	<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+  </head>
 
 	<body id="top">
 
-      <header id="header">
-          <a href="/" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
-          <h1><strong>Hello! I am <a href="/">Yuri Tkachenko</a></strong>,<br />
-            a full stack developer, an entrepreneur<br/> and digital nomad.</h1>
-          <br / >
-          <h1>Current location: <strong>
-            <a target="_blank" href="http://maps.google.com/?q={{ site.location }}">{{ site.location }}</a></strong></h1>
-      </header>
+    <header id="header">
+        <a href="/" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
+        <h1><strong>Hello! I am <a href="/">Yuri Tkachenko</a></strong>,<br />
+          a full stack developer, an entrepreneur<br/> and digital nomad.</h1>
+        <br / >
+        <h1>Current location: <strong>
+          <a target="_blank" href="http://maps.google.com/?q={{ site.location }}">{{ site.location }}</a></strong></h1>
+    </header>
 
-        {{ content }}
+    {{ content }}
 
-        <!-- Footer -->
-        <footer id="footer">
-            <ul class="icons">
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
 
-              {% if site.github_username %}
-              <li>
-                <a target="_blank" href="https://github.com/{{ site.github_username }}" class="icon fa-github">
-                  <span class="label">GitHub</span>
-                </a>
-              </li>
-              {% endif %}
+          {% if site.github_username %}
+          <li>
+            <a target="_blank" href="https://github.com/{{ site.github_username }}" class="icon fa-github">
+              <span class="label">GitHub</span>
+            </a>
+          </li>
+          {% endif %}
 
-              {% if site.twitter_username %}
-              <li>
-                <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter">
-                  <span class="label">Twitter</span>
-                </a>
-              </li>
-              {% endif %}
+          {% if site.twitter_username %}
+          <li>
+            <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter">
+              <span class="label">Twitter</span>
+            </a>
+          </li>
+          {% endif %}
 
-              {% if site.linkedin_username %}
-              <li>
-                <a target="_blank" href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin">
-                  <span class="label">LinkedIn</span>
-                </a>
-              </li>
-              {% endif %}
+          {% if site.linkedin_username %}
+          <li>
+            <a target="_blank" href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin">
+              <span class="label">LinkedIn</span>
+            </a>
+          </li>
+          {% endif %}
 
-              {% if site.google_plus_username %}
-              <li>
-                <a target="_blank" href="https://plus.google.com/{{ site.google_plus_username }}" class="icon fa-google-plus">
-                  <span class="label">Google+</span>
-                </a>
-              </li>
-              {% endif %}
+          {% if site.google_plus_username %}
+          <li>
+            <a target="_blank" href="https://plus.google.com/{{ site.google_plus_username }}" class="icon fa-google-plus">
+              <span class="label">Google+</span>
+            </a>
+          </li>
+          {% endif %}
 
-              {% if site.facebook_username %}
-              <li>
-                <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook">
-                  <span class="label">Facebook</span>
-                </a>
-              </li>
-              {% endif %}
+          {% if site.facebook_username %}
+          <li>
+            <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook">
+              <span class="label">Facebook</span>
+            </a>
+          </li>
+          {% endif %}
 
-              {% if site.dribbble_username %}
-              <li>
-                <a target="_blank" href="#" class="icon fa-dribbble">
-                  <span class="label">Dribbble</span>
-                </a>
-              </li>
-              {% endif %}
+          {% if site.dribbble_username %}
+          <li>
+            <a target="_blank" href="#" class="icon fa-dribbble">
+              <span class="label">Dribbble</span>
+            </a>
+          </li>
+          {% endif %}
 
-              {% if site.email %}
-              <li>
-                <a target="_blank" href="mailto:{{ site.email }}" class="icon fa-envelope-o">
-                  <span class="label">Email</span>
-                </a>
-              </li>
-              {% endif %}
-            </ul>
+          {% if site.email %}
+          <li>
+            <a target="_blank" href="mailto:{{ site.email }}" class="icon fa-envelope-o">
+              <span class="label">Email</span>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
 
-            <ul class="copyright">
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                <li>Images: <a href="https://unsplash.com/">Unsplash</a></li>
-                <li>Theme: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
-            </ul>
-        </footer>
+        <ul class="copyright">
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li>Images: <a href="https://unsplash.com/">Unsplash</a></li>
+            <li>Theme: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
+        </ul>
+    </footer>
 
+    <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter760793 = new Ya.Metrika({ id:760793, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/760793" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 	</body>
 </html>
