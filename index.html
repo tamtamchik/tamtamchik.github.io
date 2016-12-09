@@ -17,12 +17,15 @@ layout: default
           </header>
 
           <section>
-              {{ post.content }}
+              {{ post.excerpt }}
           </section>
+          <p><a href="{{ post.url }}">Read more...</a></p>
       {% endfor %}
   </section>
   <section>
+      <h3>Earlier posts</h3>
       <div class="row">
+
           {% for post in site.posts offset:1 limit:3 %}
 
               <article class="12u 12u(small)">
