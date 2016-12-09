@@ -29,4 +29,4 @@ To achieve project success which is measured by **on-time and within budget deli
 
 The Agile philosophy values the items on the left more than the items on the right. This is not to suggest that you ignore _processes and tools, comprehensive documentation, contract negotiation, or following a plan._ It is merely that the items on the left are the more important things to focus on.
 
-On http://agilemanifesto.org presented 12 principles that help to follow this philosophy.
+On [http://agilemanifesto.org](http://agilemanifesto.org) presented 12 principles that help to follow this philosophy.
