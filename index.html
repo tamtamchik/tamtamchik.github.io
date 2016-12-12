@@ -4,12 +4,10 @@ layout: default
 <div id="main">
 
   <section>
-          <header class="major">
-              <h2><a href="/writings">Writing</a></h2>
-          </header>
-  </section>
+      <header class="major">
+          <h2><a href="/writings">Writing</a></h2>
+      </header>
 
-  <section>
       {% for post in site.posts limit:1 %}
           <header>
               <h2><a href="{{ post.url }}"> {{ post.title }}</a></h2>
@@ -42,12 +40,10 @@ layout: default
   </section>
 
   <section>
-          <header class="major">
-              <h2>Learning</h2>
-          </header>
-  </section>
+      <header class="major">
+          <h2>Learning</h2>
+      </header>
 
-  <section>
       <div class="row">
           <article class="12u 12u(small)">
               <h2 class="major">Software Product Management Specialization, University of Alberta</h2>
@@ -68,12 +64,10 @@ layout: default
   </section>
 
   <section>
-          <header class="major">
-              <h2>Coding</h2>
-          </header>
-  </section>
+      <header class="major">
+          <h2>Coding</h2>
+      </header>
 
-  <section>
       <div class="row">
           <article class="12u 12u(small)">
               <ul>
@@ -90,6 +84,25 @@ layout: default
                     - <a href="https://transfer.sh">https://transfer.sh</a> brought to Composer community.
                   </li>
               </ul>
+          </article>
+      </div>
+  </section>
+
+  <section>
+      <header class="major">
+          <h2>Reading</h2>
+      </header>
+
+      <div class="row">
+          <article class="12u 12u(small)">
+
+            <h4 class="date">{{ '2016-12-01' | date: "%b, %Y" }}</h4>
+
+            <ul>
+              <li><strong>To Kill a Mockingbird</strong> - Harper Lee. [rus]</li>
+              <li><strong>Jonathan Livingston Seagull</strong> - Richard Bach. [rus]</li>
+            </ul>
+
           </article>
       </div>
   </section>
