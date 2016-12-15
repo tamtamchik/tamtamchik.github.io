@@ -604,6 +604,11 @@
 					padding-top: 0;
 				}
 
+			ul.alt.noline li {
+				border-top: none;
+				padding: 0;
+			}
+
 		ul.icons {
 			cursor: default;
 			list-style: none;
