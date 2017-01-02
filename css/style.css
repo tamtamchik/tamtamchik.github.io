@@ -61,14 +61,14 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0.25em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #787878;
 		font-weight: 400;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.25em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -188,9 +188,8 @@
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
-		margin-top: -1em;
 		line-height: 1.5em;
+		margin-bottom: 0.25em;
 	}
 
 	header h3 + p {
@@ -581,12 +580,19 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0.25em 1em;
 		padding-left: 1em;
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0;
+		}
+
+		ul li .git-star {
+			display: inline-block;
+			position: relative;
+			top: 6px;
+			min-width: 85px;
 		}
 
 		ul.alt {
@@ -1033,12 +1039,12 @@
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 4em 4em 4em 4em;
+		padding: 2em 2em 2em 2em;
 		width: calc(100% - 35%);
 	}
 
 		#main > section {
-			margin: 1em 0 0 0;
+			margin: 0;
 			padding: 1em 0 0 0;
 		}
 
