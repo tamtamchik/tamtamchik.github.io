@@ -965,6 +965,7 @@
 		padding: 8em 4em 0 0;
 		position: fixed;
 		text-align: right;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
 		top: 0;
 		width: 35%;
 	}
@@ -978,7 +979,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(255, 255, 255, 1);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -997,6 +998,7 @@
 		padding: 0 4em 6em 0;
 		position: fixed;
 		text-align: right;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
 		width: 35%;
 	}
 
@@ -1005,11 +1007,11 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.75);
+				color: rgba(255, 255, 255, 1);
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.75);
 			font-size: 0.8em;
 			list-style: none;
 			margin: 1em 0 0 0;
