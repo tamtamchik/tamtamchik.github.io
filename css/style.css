@@ -211,6 +211,10 @@
 		color: #3F3F3F;
 	}
 
+	header.major h2 a {
+		color: #49bf9d;
+	}
+
 	header .date {
 		display: inline-block;
 		width: 100px;

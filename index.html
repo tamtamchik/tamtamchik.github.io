@@ -41,7 +41,7 @@ layout: default
 
   <section>
       <header class="major">
-          <h2>Education</h2>
+          <h2>Online Education</h2>
       </header>
 
       <div class="row">
@@ -103,94 +103,48 @@ layout: default
 
   <section>
       <header class="major">
-          <h2>Books</h2>
+          <h2><a href="/readings" title="Click to see more">Readings</a></h2>
       </header>
 
       <div class="row">
 
-          <article class="12u 12u(small)">
+        {% for month in site.data.books limit:2 %}
+        <article class="12u 12u(small)">
 
-            <h4 class="date">{{ '2017-02-01' | date: "%b, %Y" }}</h4>
+          <h4 class="date">{{ month.date | date: "%b, %Y" }}</h4>
 
-            <ul>
-              <li><strong>The Black Obelisk</strong> - Erich Maria Remarque [rus]</li>
-            </ul>
+          <ul>
+          {% for book in month.books %}
+            <li><strong>{{ book.title }}</strong> - {{ book.author }} <em>({{ book.lang }})</em></li>
+          {% endfor %}
+          </ul>
 
-          </article>
+        </article>
+        {% endfor %}
 
-          <article class="12u 12u(small)">
-
-            <h4 class="date">{{ '2017-01-01' | date: "%b, %Y" }}</h4>
-
-            <ul>
-              <li><strong>Going Pro</strong> - Cal Evans [eng]</li>
-              <li><strong>The History of a Town</strong> - Mikhail Saltykov-Shchedrin [rus]</li>
-            </ul>
-
-          </article>
-
-          <article class="12u 12u(small)">
-
-            <h4 class="date">{{ '2016-12-01' | date: "%b, %Y" }}</h4>
-
-            <ul>
-              <li><strong>To Kill a Mockingbird</strong> - Harper Lee [rus]</li>
-              <li><strong>Jonathan Livingston Seagull</strong> - Richard Bach [rus]</li>
-              <li><strong>Hollywood</strong> - Charles Bukowski [rus]</li>
-            </ul>
-
-          </article>
       </div>
   </section>
 
   <section>
       <header class="major">
-          <h2>Games</h2>
+          <h2><a href="/games" title="Click to see more">Games</a></h2>
       </header>
 
       <div class="row">
 
-          <article class="12u 12u(small)">
+        {% for month in site.data.games limit:2 %}
+        <article class="12u 12u(small)">
 
-            <h4 class="date">{{ '2017-02-01' | date: "%b, %Y" }}</h4>
+          <h4 class="date">{{ month.date | date: "%b, %Y" }}</h4>
 
-            <ul>
-              <li><strong>Star Wars: The Force Unleashed</strong></li>
-            </ul>
+          <ul>
+          {% for game in month.games %}
+            <li><strong>{{ game.name }}</strong></li>
+          {% endfor %}
+          </ul>
 
-          </article>
-
-          <article class="12u 12u(small)">
-
-            <h4 class="date">{{ '2017-01-01' | date: "%b, %Y" }}</h4>
-
-            <ul>
-              <li><strong>Tomb Rider</strong></li>
-            </ul>
-
-          </article>
-
-          <article class="12u 12u(small)">
-
-            <h4 class="date">{{ '2016-12-01' | date: "%b, %Y" }}</h4>
-
-            <ul>
-              <li><strong>Mass Effect</strong></li>
-              <li><strong>Mass Effect 2</strong></li>
-              <li><strong>Mass Effect 3</strong></li>
-            </ul>
-
-          </article>
-
-          <article class="12u 12u(small)">
-
-            <h4 class="date">{{ '2016-11-01' | date: "%b, %Y" }}</h4>
-
-            <ul>
-              <li><strong>Brothers</strong></li>
-            </ul>
-
-          </article>
+        </article>
+        {% endfor %}
 
       </div>
   </section>

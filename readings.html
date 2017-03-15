@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div id="main">
+
+  <section>
+      <header class="major">
+          <h2>Readings</h2>
+      </header>
+
+      {% for month in site.data.books %}
+      <article class="12u 12u(small)">
+
+        <h4 class="date">{{ month.date | date: "%b, %Y" }}</h4>
+
+        <ul>
+        {% for book in month.books %}
+          <li><strong>{{ book.title }}</strong> - {{ book.author }} <em>({{ book.lang }})</em></li>
+        {% endfor %}
+        </ul>
+
+      </article>
+      {% endfor %}
+  </section>
+
+</div>

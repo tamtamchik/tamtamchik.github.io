@@ -1,0 +1,34 @@
+- date: 2017-03-01
+  books:
+    - title: Dandelion Wine
+      author: Ray Bradbury
+      lang: rus
+
+- date: 2017-02-01
+  books:
+    - title: The Black Obelisk
+      author: Erich Maria Remarque
+      lang: rus
+
+- date: 2017-01-01
+  books:
+    - title: Going Pro
+      author: Cal Evans
+      lang: eng
+    - title: The History of a Town
+      author: Mikhail Saltykov-Shchedrin
+      lang: rus
+
+- date: 2016-12-01
+  books:
+    - title: To Kill a Mockingbird
+      author: Harper Lee
+      lang: rus
+
+    - title: Jonathan Livingston Seagull
+      author: Richard Bach
+      lang: rus
+
+    - title: Hollywood
+      author: Charles Bukowski
+      lang: rus

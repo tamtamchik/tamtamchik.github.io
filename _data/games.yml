@@ -1,0 +1,23 @@
+- date: 2017-03-01
+  games:
+    - name: "Dragon Age: Inquisition"
+    - name: "Forza Horizon"
+    - name: "The Secret of Monkey Island™: Special Edition"
+
+- date: 2017-02-01
+  games:
+    - name: "Star Wars: The Force Unleashed"
+
+- date: 2017-01-01
+  games:
+    - name: Tomb Rider
+
+- date: 2016-12-01
+  games:
+    - name: Mass Effect
+    - name: Mass Effect 2
+    - name: Mass Effect 3
+
+- date: 2016-11-01
+  games:
+    - name: Brothers
