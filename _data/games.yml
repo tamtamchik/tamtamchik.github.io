@@ -1,8 +1,13 @@
+- date: 2017-04-01
+  games:
+    - name: "Fallout 3"
+
 - date: 2017-03-01
   games:
     - name: "Dragon Age: Inquisition"
     - name: "Forza Horizon"
     - name: "The Secret of Monkey Island™: Special Edition"
+    - name: "Fallout 3"
 
 - date: 2017-02-01
   games:
