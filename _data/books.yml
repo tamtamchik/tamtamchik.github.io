@@ -1,3 +1,9 @@
+- date: 2017-07-01
+  books:
+    - title: Snail on the Slope
+      author: Arkady and Boris Strugatsky
+      lang: rus
+
 - date: 2017-03-01
   books:
     - title: Dandelion Wine
