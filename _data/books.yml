@@ -1,3 +1,21 @@
+- date: 2017-08-01
+  books:
+    - title: Nine Princes in Amber
+      author: Roger Zelazny
+      lang: rus
+    - title: The Guns of Avalon
+      author: Roger Zelazny
+      lang: rus
+    - title: Sign of the Unicorn
+      author: Roger Zelazny
+      lang: rus
+    - title: The Hand of Oberon
+      author: Roger Zelazny
+      lang: rus
+    - title: The Courts of Chaos
+      author: Roger Zelazny
+      lang: rus
+
 - date: 2017-07-01
   books:
     - title: Snail on the Slope
@@ -6,7 +24,12 @@
     - title: The Martian Chronicles
       author: Ray Bradbury
       lang: rus
-
+    - title: Fahrenheit 451
+      author: Ray Bradbury
+      lang: rus
+    - title: Monday Begins on Saturday
+      author: Arkady and Boris Strugatsky
+      lang: rus
 
 - date: 2017-03-01
   books:
