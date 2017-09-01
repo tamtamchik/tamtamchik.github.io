@@ -25,8 +25,8 @@ github_username:      tamtamchik
 linkedin_username:    tamtamchik
 facebook_username:    tamtamchik
 
-location: Armenia
-location_coordinates: Armenia
+location:             Kutaisi, Georgia
+location_coordinates: Kutaisi+Georgia
 
 # Build settings
 markdown: kramdown
