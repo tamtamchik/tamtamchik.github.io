@@ -1,3 +1,9 @@
+- date: 2017-09-01
+  books:
+    - title: Knight of Shadows
+      author: Roger Zelazny
+      lang: rus
+
 - date: 2017-08-01
   books:
     - title: Nine Princes in Amber
