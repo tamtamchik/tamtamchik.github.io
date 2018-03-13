@@ -85,7 +85,7 @@
     });
 
     // Add some folding for education
-    $more = $('<a href="#">Details...</a>').on('click', function(event){
+    $more = $('<a href="#">[Show Details]</a>').on('click', function(event){
       event.preventDefault();
       $(this).prev().show().end().remove();
     });
