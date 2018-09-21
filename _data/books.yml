@@ -1,3 +1,9 @@
+- date: 2018-09-01
+  books:
+    - title: Neuromancer
+      author: William Gibson
+      lang: rus
+
 - date: 2018-05-01
   books:
     - title: The Name of the Rose
