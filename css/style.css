@@ -590,12 +590,13 @@
 
 		ul li {
 			padding-left: 0;
+			list-style: none;
 		}
 
 		ul li .git-star {
 			display: inline-block;
 			position: relative;
-			top: 6px;
+			top: -7px;
 			min-width: 85px;
 		}
 
