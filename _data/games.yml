@@ -1,3 +1,7 @@
+- date: 2019-01-01
+  games:
+    - name: "The Elder Scrolls V: Skyrim"
+    
 - date: 2018-10-01
   games:
     - name: "Assassin's Creed Syndicate"
