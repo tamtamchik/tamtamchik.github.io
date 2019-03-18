@@ -15,7 +15,12 @@ layout: default
 
         <ul>
         {% for book in month.books %}
-          <li><strong>{{ book.title }}</strong> - {{ book.author }} <em>({{ book.lang }})</em></li>
+          <li>
+            <strong>{{ book.title }}</strong> - {{ book.author }}
+            {% if book.lang %}
+              <em>({{ book.lang }})</em>
+            {% endif %}
+          </li>
         {% endfor %}
         </ul>
 
