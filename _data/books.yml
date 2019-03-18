@@ -1,3 +1,10 @@
+- date: 2019-03-01
+  books:
+    - title: Lolita
+      author: Vladimir Nabokov
+    - title: Mind Map Mastery
+      author: Tony Buzan
+
 - date: 2018-12-01
   books:
     - title: 7 Steps to Raising a Bilingual Child
@@ -5,58 +12,44 @@
       lang: rus
     - title: Notes of a Young Doctor
       author: Mikhail Bulgakov
-      lang: rus
 
 - date: 2018-11-01
   books:
     - title: We
       author: Yevgeny Zamyatin
-      lang: rus
     - title: The Art of War
       author: Sun Tzu
-      lang: rus
     - title: What I Talk About When I Talk About Running
       author: Haruki Murakami
-      lang: rus
 
 - date: 2018-10-01
   books:
     - title: Anna Karenina
       author: Leo Tolstoy
-      lang: rus
     - title: The Old Man and the Sea
       author: Ernest Hemingway
-      lang: rus
     - title: "Cat's Cradle"
       author: Kurt Vonnegut
-      lang: rus
     - title: Arch of Triumph
       author: Erich Maria Remarque
-      lang: rus
     - title: Getting Things Done
       author: David Allen
-      lang: rus
 
 - date: 2018-09-01
   books:
     - title: Neuromancer
       author: William Gibson
-      lang: rus
     - title: Three Sisters
       author: Anton Chekhov
-      lang: rus
     - title: Ubik
       author: Philip K. Dick
-      lang: rus
     - title: Three Comrades
       author: Erich Maria Remarque
-      lang: rus
 
 - date: 2018-05-01
   books:
     - title: The Name of the Rose
       author: Umberto Eco
-      lang: rus
     - title: Of Mice and Men
       author: John Steinbeck
       lang: eng
@@ -71,84 +64,61 @@
   books:
     - title: Prince of Chaos
       author: Roger Zelazny
-      lang: rus
     - title: Knight of Shadows
       author: Roger Zelazny
-      lang: rus
 
 - date: 2017-08-01
   books:
     - title: Nine Princes in Amber
       author: Roger Zelazny
-      lang: rus
     - title: The Guns of Avalon
       author: Roger Zelazny
-      lang: rus
     - title: Sign of the Unicorn
       author: Roger Zelazny
-      lang: rus
     - title: The Hand of Oberon
       author: Roger Zelazny
-      lang: rus
     - title: The Courts of Chaos
       author: Roger Zelazny
-      lang: rus
     - title: Trumps of Doom
       author: Roger Zelazny
-      lang: rus
     - title: Blood of Amber
       author: Roger Zelazny
-      lang: rus
     - title: Sign of Chaos
       author: Roger Zelazny
-      lang: rus
 
 - date: 2017-07-01
   books:
     - title: Snail on the Slope
       author: Arkady and Boris Strugatsky
-      lang: rus
     - title: The Martian Chronicles
       author: Ray Bradbury
-      lang: rus
     - title: Fahrenheit 451
       author: Ray Bradbury
-      lang: rus
     - title: Monday Begins on Saturday
       author: Arkady and Boris Strugatsky
-      lang: rus
 
 - date: 2017-03-01
   books:
     - title: Dandelion Wine
       author: Ray Bradbury
-      lang: rus
 
 - date: 2017-02-01
   books:
     - title: The Black Obelisk
       author: Erich Maria Remarque
-      lang: rus
 
 - date: 2017-01-01
   books:
     - title: Going Pro
       author: Cal Evans
-      lang: eng
     - title: The History of a Town
       author: Mikhail Saltykov-Shchedrin
-      lang: rus
 
 - date: 2016-12-01
   books:
     - title: To Kill a Mockingbird
       author: Harper Lee
-      lang: rus
-
     - title: Jonathan Livingston Seagull
       author: Richard Bach
-      lang: rus
-
     - title: Hollywood
       author: Charles Bukowski
-      lang: rus
