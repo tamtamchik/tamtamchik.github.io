@@ -9,7 +9,6 @@
   books:
     - title: 7 Steps to Raising a Bilingual Child
       author: Naomi Steiner
-      lang: rus
     - title: Notes of a Young Doctor
       author: Mikhail Bulgakov
 
@@ -111,6 +110,7 @@
   books:
     - title: Going Pro
       author: Cal Evans
+      lang: eng
     - title: The History of a Town
       author: Mikhail Saltykov-Shchedrin
 
