@@ -1,3 +1,8 @@
+- date: 2019-04-01
+  books:
+    - title: 99 Francs
+      author: Frédéric Beigbeder
+
 - date: 2019-03-01
   books:
     - title: Lolita
