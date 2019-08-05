@@ -1,3 +1,13 @@
+- date: 2019-07-01
+  books:
+    - title: The Deerslayer
+      author: James Fenimore Cooper
+
+- date: 2019-06-01
+  books:
+    - title: One Flew Over the Cuckoo's Nest
+      author: Ken Kesey
+
 - date: 2019-04-01
   books:
     - title: 99 Francs
