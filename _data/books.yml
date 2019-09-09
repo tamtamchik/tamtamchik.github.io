@@ -2,6 +2,10 @@
   books:
     - title: The Island of Doctor Moreau
       author: H. G. Wells
+    - title: The Murders in the Rue Morgue
+      author: Edgar Allan Poe
+    - title: The Maracot Deep
+      author: Arthur Conan Doyle
 
 - date: 2019-07-01
   books:
