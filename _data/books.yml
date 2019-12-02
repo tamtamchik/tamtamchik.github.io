@@ -1,3 +1,27 @@
+- date: 2019-10-01
+  books:
+    - title: Novels
+      author: Stefan Zweig
+    - title: Eugene Onegin
+      author: Alexander Pushkin
+
+- date: 2019-10-01
+  books:
+    - title: Carmen
+      author: Prosper Mérimée
+    - title: Doctor Zhivago
+      author: Boris Pasternak
+    - title: Moloch
+      author: Alexander Kuprin
+    - title: Moloch
+      author: Alexander Kuprin
+    - title: "Gods & Heroes: Rome"
+      author: Myths 
+    - title: Cats of Jerusalem
+      author: Dina Rubina 
+    - title: Cats of Jerusalem
+      author: Dina Rubina
+
 - date: 2019-09-01
   books:
     - title: The Island of Doctor Moreau
@@ -6,6 +30,12 @@
       author: Edgar Allan Poe
     - title: The Maracot Deep
       author: Arthur Conan Doyle
+    - title: The Viy
+      author: Nikolai Gogol
+    - title: South Sea Tales
+      author: Jack London
+    - title: How to Be a Stoic: Using Ancient Philosophy to Live a Modern Life
+      author: Massimo Pigliucci
 
 - date: 2019-07-01
   books:
