@@ -1,4 +1,8 @@
-- date: 2019-07-01
+- date: 2019-10-01
+  games:
+    - name: "Middle-earth: Shadow of War"
+
+- date: 2019-08-01
   games:
     - name: "Middle-earth: Shadow of Mordor"
 
