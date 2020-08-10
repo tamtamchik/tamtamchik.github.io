@@ -30,8 +30,9 @@ location_coordinates: Novocherkassk+Russia
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
+  - vendor
   - Gemfile
   - Gemfile.lock
