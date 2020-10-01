@@ -596,8 +596,8 @@
 		ul li .git-star {
 			display: inline-block;
 			position: relative;
-			top: -7px;
-			min-width: 85px;
+			top: 6px;
+			min-width: 90px;
 		}
 
 		ul.alt {
